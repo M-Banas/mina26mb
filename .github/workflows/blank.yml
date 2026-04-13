@@ -32,4 +32,4 @@ jobs:
           pip install -r requiremens.txt
           pip install pytest
       - name: Run tests
-        run: pytest
+        run: PYTHONPATH=. pytest
