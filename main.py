@@ -1,5 +1,5 @@
 def a():
-    print("a")
+    return 'a'
 
-def sum(a, b):
+def add(a, b):
     return a + b
